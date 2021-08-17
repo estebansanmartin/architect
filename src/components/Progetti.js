@@ -101,6 +101,8 @@ function Tienda() {
                     </Card>
                     </Column>
 
+                    </Column.Group>
+                    <Column.Group>
 
                     <Column size={6}>
                     <Card className="reveal card-novedades">
