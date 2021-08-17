@@ -39,7 +39,7 @@ function Tienda() {
                                     bullets={false}
                                 >
                                     <div data-src={Slide101} />
-                                    <div data-src={Slide102} />
+                                   <div data-src={Slide102} />
                                     <div data-src={Slide103} />
                                 </AutoplaySlider>
                             </Image.Container>
