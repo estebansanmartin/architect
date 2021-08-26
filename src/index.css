@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root {
   --animation-delay: 0;
   --duration: 800ms;
   --iterations: 1;
   --blanco: #fffffc;
+  --blanco2: #f1faee;
   --rojo: #ffadad;
+  --rojo2: #e86a58;
   --naranjo: #ffd6a5;
   --amarillo: #fdffb6;
   --giallo: #FFFF00;
@@ -16,6 +19,7 @@
   --violeta: #6930c3;
   --rosa: #ffc8dd;
   --negro: #212529;
+  --negro2: #000000;
   --marquee-width: 100vw;
   --offset: 20vw;
   --move-initial: calc(-25% + var(--offset));
@@ -29,8 +33,25 @@
 a {
   color: var(--giallo) !important;
 }
-html, body {
-  background-color: transparent;
+html, nav {
+
+}
+body {
+  background-color: #f1faee;
+  opacity: 0.8;
+  background-image:  radial-gradient(#e86a58 2px, transparent 2px), radial-gradient(#e86a58 2px, #fefae0 2px);
+  background-size: 80px 80px;
+  background-position: 0 0,40px 40px;
+  background-attachment: fixed;
+}
+.loading-fondo {
+  height: 100vh;
+  background-color: var(--blanco2);
+}
+.loading-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 .app {
   min-height: 100vh;
@@ -52,11 +73,6 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--blanco);
-}
-.clip-loader {
-  display: block;
-  margin: 0 auto;
-  border-color: tomato;
 }
 /*---------HOME---------*/
 .header {
@@ -87,21 +103,30 @@ html, body {
   background-color: var(--negro) !important;
 }
 .home-about {
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize !important;
   width: 90%;
-  font-size: 10vw !important;
+  font-size: 14vw !important;
+  line-height: .9 !important;
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 10%;
   color: var(--negro) !important;
+  font-weight: 800 !important;
 }
 .button-home {
   display: flex;
-  top: 50%;
+  top: 60%;
   left: 10%;
   position: absolute;
 }
 .button-home a {
-  color: var(--negro) !important;
+  font-weight: 500;
+  color: var(--blanco2) !important;
+}
+.button-home a:hover {
+  font-weight: 500;
+  background-color: var(--rojo2) !important;
 }
 .icon-button {
   margin: 0 20px 0 0;
@@ -123,21 +148,22 @@ li {
   font-weight: 300;
 }
 .navmenu:hover {
-  color: var(--naranjo) !important;
+  color: var(--rojo2) !important;
 }
 .logo {
-  font-weight: 200 !important;
-  letter-spacing: 10px;
-  color: var(--negro) !important;
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize !important;
+  color: var(--rojo2) !important;
+  font-size: 3vw !important;
 }
 .social {
   color: var(--negro) !important;
 }
 .social:hover {
-  color: var(--giallo) !important;
+  color: var(--rojo2) !important;
 }
 .sombra {
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22) !important;
 }
 .image {
   top: 0;
@@ -233,10 +259,11 @@ li {
   }
 }
 .image-architetto {
-  max-width: 700px;
+  max-width: 600px;
+  max-height: 750px;
   object-fit: cover;
   top: 50%;
-  left: 40%;
+  left: 50%;
   position: relative;
   animation: main 2s forwards;
   animation-delay: .5s;
@@ -303,7 +330,7 @@ li {
   left: 50%;
   margin: -40px 0 0 -40px;
   font-weight: 300 !important;
-  letter-spacing: 3px;
+  letter-spacing: 10px;
   line-height: 1.5 !important;
   text-transform: uppercase;
 }
@@ -330,22 +357,22 @@ li {
 .text-studio {
   font-family: monospace;
   letter-spacing: 5px;
-  font-weight: 100 !important;
+  font-weight: 300 !important;
   line-height: 1.7 !important;
   border-right: 1px solid var(--negro);
   padding-right: 30px;
 }
 /*-----GALLERIA-----*/
 .title-galeria {
-  background-color: var(--giallo2);
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize !important;
+  background-color: transparent;
   margin-top: 30px;
   color: var(--negro) !important;
-  font-size: 5em !important;
-  letter-spacing: 35px;
+  font-size: 14vw !important;
   padding: 10px;
   text-align: center;
-  text-transform: uppercase;
-  font-weight: 500 !important;
+  font-weight: 800 !important;
 }
 /*-----CONTACT-----*/
 .title-contact {
@@ -359,7 +386,7 @@ li {
 }
 .form {
   background-color: var(--blanco);
-  border: 15px solid var(--azul2);
+  border: 15px solid var(--rojo2);
   padding: 40px;
   margin: 50px 0 50px 0 !important;
 }
@@ -375,8 +402,8 @@ li {
   text-align: left;
 }
 .box-contact {
-  display: flex;
-  flex-direction: column;
+  background-color: var(--blanco);
+  margin: 0 20px;
 }
 .icon-contact {
   display: flex;
@@ -388,7 +415,7 @@ li {
   padding: 10px;
 }
 .team {
-  background-color: var(--giallo2);
+  background-color: var(--rojo2);
   height: 100%;
   position: relative;
 }
@@ -493,12 +520,9 @@ iframe {
   }
 .reveal,
 .reveal::after {
-         animation-delay: 0;
-         animation-delay: var(--animation-delay, 2s);
+         animation-delay: .6s;
          animation-iteration-count: 1;
-         animation-iteration-count: var(--iterations, 1);
          animation-duration: 800ms;
-         animation-duration: var(--duration, 800ms);
          animation-fill-mode: both;
          animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
@@ -518,7 +542,7 @@ iframe {
  left: 0;
  right: 0;
  bottom: 0;
- background: var(--giallo);
+ background: var(--rojo);
  transform: scaleX(0);
  transform-origin: 0 50%;
  pointer-events: none;

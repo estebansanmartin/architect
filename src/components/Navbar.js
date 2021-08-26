@@ -7,10 +7,10 @@ import { Button, Icon } from '@material-ui/core'
 function Nav() {
     return (
         <div>
-            <Navbar transparent>
+            <Navbar style={{backgroundColor:"#fefae0"}}>
                 <Navbar.Brand>
                     <Navbar.Item href="/">
-                        <Title className="logo">STUDIO</Title>
+                        <Title className="logo">Studio</Title>
                     </Navbar.Item>
                     <Navbar.Burger />
                 </Navbar.Brand>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Media, Label, Container, Content, Title, Column, Image, Field, Control, Input, Textarea, Button, Card} from 'rbx'
 import { Map, AlternateEmail, PhoneAndroid } from '@material-ui/icons'
 import { Icon } from '@material-ui/core'
+import { Facebook, Instagram } from '@material-ui/icons'
 import Box from '@material-ui/core/Box'
 
 function Contacto() {
@@ -10,41 +11,35 @@ function Contacto() {
         <div>
             <Container>
                 <Content>
-                    <Title className="reveal title-galeria">Contatti</Title>
+                    <Title className="title-galeria">Contatti</Title>
                 </Content>
                 <Content>
-                    <Title className="reveal font-contact-1" size={1}>Chiedici Informazioni</Title>
-                    <Title className="reveal font-contact" subtitle size={2}>Per qualsiasi informazione non esitare a contattarci, ti risponderemo il prima possibile.</Title>
+                    <Title className="font-contact-1" size={2}>Chiedici Informazioni</Title>
+                    <Title className="font-contact" subtitle size={3}>Per qualsiasi informazione non esitare a contattarci, ti risponderemo il prima possibile.</Title>
                     <Column.Group>
-                        <Column className="reveal box-contact" size={4}>
-                            <Box boxShadow={12}>
+                        <Column className="box-contact sombra" size={4}>
                             <Title className="font-contact" size={4} >
                             <Icon className="icon-contact">
-                                <Map fontSize="large" style={{ color:"var(--azul2)", fontSize:"80" }} />
+                                <Map fontSize="large" style={{ color:"var(--rojo2)", fontSize:"80" }} />
                             </Icon>
                             Via Belmonte 1313
                             </Title>
-                            </Box>
                         </Column>
-                        <Column className="reveal box-contact" size={4}>
-                            <Box boxShadow={12}>
+                        <Column className="box-contact sombra" size={4}>
                             <Title className="font-contact" size={4} >
                             <Icon className="icon-contact">
-                                <AlternateEmail fontSize="large" style={{ color:"var(--azul2)", fontSize:"80" }} />
+                                <AlternateEmail fontSize="large" style={{ color:"var(--rojo2)", fontSize:"80" }} />
                             </Icon>
                             info@gmail.com
                             </Title>
-                            </Box>
                         </Column>
-                        <Column className="reveal box-contact" size={4}>
-                            <Box boxShadow={12}>
+                        <Column className="box-contact sombra" size={4}>
                             <Title className="font-contact" size={4} >
                             <Icon className="icon-contact">
-                                <PhoneAndroid fontSize="large" style={{ color:"var(--azul2)", fontSize:"80" }} />
+                                <PhoneAndroid fontSize="large" style={{ color:"var(--rojo2)", fontSize:"80" }} />
                             </Icon>
                             333 3333333
                             </Title>
-                            </Box>
                         </Column>
                     </Column.Group>                
                 </Content>
@@ -91,7 +86,7 @@ function Contacto() {
 
                 <Column.Group>
                     <Column size={3}>
-                        <div className="team">
+                        <div className="team sombra">
                             <Title className="team-text">TEAM</Title>
                         </div>
                     </Column>
@@ -122,14 +117,14 @@ function Contacto() {
                                 </Content>
                                 <Card.Footer as="footer">
                                     <Card.Footer.Item as="p">
-                                        <Title subtitle size={5}>
-                                            Facebook
-                                        </Title>
+                                        <Icon>
+                                            <Facebook />
+                                        </Icon>
                                     </Card.Footer.Item>
                                     <Card.Footer.Item as="p">
-                                        <Title subtitle size={5}>
-                                            Instagram
-                                        </Title>
+                                        <Icon>
+                                            <Instagram />
+                                        </Icon>
                                     </Card.Footer.Item>
                                 </Card.Footer>
                             </Card.Content>
@@ -163,14 +158,14 @@ function Contacto() {
                                 </Content>
                                 <Card.Footer as="footer">
                                     <Card.Footer.Item as="p">
-                                        <Title subtitle size={5}>
-                                            Facebook
-                                        </Title>
+                                        <Icon>
+                                            <Facebook />
+                                        </Icon>
                                     </Card.Footer.Item>
                                     <Card.Footer.Item as="p">
-                                        <Title subtitle size={5}>
-                                            Instagram
-                                        </Title>
+                                        <Icon>
+                                            <Instagram />
+                                        </Icon>
                                     </Card.Footer.Item>
                                 </Card.Footer>
                             </Card.Content>
@@ -203,14 +198,14 @@ function Contacto() {
                                 </Content>
                                 <Card.Footer as="footer">
                                     <Card.Footer.Item as="p">
-                                        <Title subtitle size={5}>
-                                            Facebook
-                                        </Title>
+                                        <Icon>
+                                            <Facebook />
+                                        </Icon>
                                     </Card.Footer.Item>
                                     <Card.Footer.Item as="p">
-                                        <Title subtitle size={5}>
-                                            Instagram
-                                        </Title>
+                                        <Icon>
+                                            <Instagram />
+                                        </Icon>
                                     </Card.Footer.Item>
                                 </Card.Footer>
                             </Card.Content>

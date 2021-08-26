@@ -49,14 +49,14 @@ function Home() {
             </Content> */}
             <Container>
                 <Image.Container>
-                    <Image style={{
-                        transform: `translateY(${offset * -0.1}px)`
+                    <Image loading="lazy" style={{
+                        transform: `translateY(${offset * -0.3}px)`
                     }} className="image-architetto reveal" src="https://images.pexels.com/photos/5806989/pexels-photo-5806989.jpeg" />
                 </Image.Container>
                 <Title className="reveal home-about" size={1}>Studio Architetti</Title>
                
                 <div className="reveal button-home">
-                <Button outlined color="warning" as="a" href="/contatti" size="large">
+                <Button style={{backgroundColor:"var(--negro)"}} as="a" href="/contatti" size="large">
                     {/* <Icon size="large">
                         <Contactless className="icon-button" />
                     </Icon> */}

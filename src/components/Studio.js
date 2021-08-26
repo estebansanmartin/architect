@@ -22,19 +22,19 @@ function Studio() {
         <div>
             <Container>
                 <Content>
-                    <Title className="reveal title-galeria">CHI SIAMO</Title>
+                    <Title className="title-galeria">Chi Siamo</Title>
                 </Content>
                 <Content> 
                     <Column.Group>
                         <Column size={3}>
-                            <Title className="reveal title-about" size={2}>Studio Architetti</Title>
+                            <Title className="title-about" size={2}>Studio Architetti</Title>
                         </Column>
                         <Column size={9}>
-                            <Title className="reveal subtitle-about" size={3} subtitle>STUDIO ARCHITETTI ASSOCIATI fondato nel 2001 da Luigi Torinese e Marco Milanese, lo STUDIO, si occupa prevalentemente di progettazione architettonica, urbana e paesaggistica.</Title>
+                            <Title className="subtitle-about" size={3} subtitle>STUDIO ARCHITETTI ASSOCIATI fondato nel 2001 da Luigi Torinese e Marco Milanese, lo STUDIO, si occupa prevalentemente di progettazione architettonica, urbana e paesaggistica.</Title>
                         </Column>
                     </Column.Group>
                 </Content>
-                <Content className="reveal parallax-content">
+                <Content className="parallax-content">
                     <img 
                     src={About1} 
                     alt="chi-siamo"
@@ -44,7 +44,7 @@ function Studio() {
                     }}
                   />
                 </Content>
-                <Content style={{backgroundColor:"var(--celeste)", padding:"30px"}}>
+                <Content>
                     <Column.Group>
                         <Column size={9}>
                             <Title subtitle className="text-studio" size={5}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Title>
@@ -54,7 +54,7 @@ function Studio() {
                         </Column>
                     </Column.Group>  
                 </Content>
-                <Content style={{backgroundColor:"var(--celeste)", padding:"30px"}}>
+                <Content>
                     <Column.Group>
                         <Column size={9}>
                         <Title subtitle className="text-studio" size={5}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Title>
@@ -64,7 +64,7 @@ function Studio() {
                         </Column>
                     </Column.Group>  
                 </Content>
-                <Content style={{backgroundColor:"var(--celeste)", padding:"30px"}}>
+                <Content>
                     <Column.Group>
                         <Column size={9}>
                             <Title subtitle className="text-studio" size={5}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Title>

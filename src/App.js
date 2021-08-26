@@ -74,7 +74,9 @@ function App() {
       
       </div>
     ) : (
-      <CircularProgress color="secondary" />
+      <div className="loading-fondo">
+        <CircularProgress className="loading-icon" color="secondary" />
+      </div>
     )}
     </div>
   );

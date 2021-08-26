@@ -20,13 +20,13 @@ function Tienda() {
         <div>
             <Container>
                 <Content>
-                    <Title className="reveal title-galeria">Progetti</Title>
+                    <Title className="title-galeria">Progetti</Title>
                 </Content>
     
                 <Column.Group centered>
 
                     <Column size={6}>
-                    <Card className="reveal card-novedades">
+                    <Card className="card-novedades sombra">
                            {/*  <Icon className="favorite">
                                 <FavoriteBorder className="favorites" />
                             </Icon> */}
@@ -64,7 +64,7 @@ function Tienda() {
 
 
                     <Column size={6}>
-                    <Card className="reveal card-novedades">
+                    <Card className="sombra card-novedades">
                         {/* <Icon className="favorite">
                              <FavoriteBorder className="favorites" />
                         </Icon> */}
@@ -106,7 +106,7 @@ function Tienda() {
                     <Column.Group centered>
 
                     <Column size={6}>
-                    <Card className="reveal card-novedades">
+                    <Card className="sombra card-novedades">
                            {/*  <Icon className="favorite">
                                 <FavoriteBorder className="favorites" />
                             </Icon> */}
@@ -144,7 +144,7 @@ function Tienda() {
 
 
                     <Column size={6}>
-                    <Card className="reveal card-novedades">
+                    <Card className="sombra card-novedades">
                         {/* <Icon className="favorite">
                              <FavoriteBorder className="favorites" />
                         </Icon> */}
