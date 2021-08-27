@@ -30,7 +30,7 @@ function Studio() {
                             <Title className="title-about" size={2}>Studio Architetti</Title>
                         </Column>
                         <Column size={9}>
-                            <Title className="subtitle-about" size={3} subtitle>STUDIO ARCHITETTI ASSOCIATI fondato nel 2001 da Luigi Torinese e Marco Milanese, lo STUDIO, si occupa prevalentemente di progettazione architettonica, urbana e paesaggistica.</Title>
+                            <Title className="subtitle-about" size={3} subtitle>STUDIO ARCHITETTI fondato nel 2010 da Luigi Torinese e Marco Milanese, lo STUDIO, si occupa prevalentemente di progettazione architettonica, urbana e paesaggistica.</Title>
                         </Column>
                     </Column.Group>
                 </Content>

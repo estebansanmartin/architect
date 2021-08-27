@@ -97,7 +97,7 @@ function Contacto() {
                                 <Media>
                                     <Media.Item as="figure"  style={{marginRight:"10px"}}>
                                         <Image.Container as="p" size="1by1">
-                                            <Image alt="torinese" src="https://bulma.io/images/placeholders/128x128.png" />
+                                            <Image alt="torinese" src="https://images.freejpg.com.ar/900/2606/classy-man-posing-grayscale-adult-person-black-and-white-F100029008.jpg" />
                                         </Image.Container>
                                     </Media.Item>
                                     <Media.Item>
@@ -138,7 +138,7 @@ function Contacto() {
                                 <Media>
                                     <Media.Item as="figure"  style={{marginRight:"10px"}}>
                                         <Image.Container as="p" size="1by1">
-                                            <Image alt="torinese" src="https://bulma.io/images/placeholders/128x128.png" />
+                                            <Image alt="torinese" src="https://www.freejpg.com.ar/image-900/4b/4bab/F100012453-hombre_joven_con_gafas_y_gorro_posando.jpg" />
                                         </Image.Container>
                                     </Media.Item>
                                     <Media.Item>
@@ -178,7 +178,7 @@ function Contacto() {
                                 <Media>
                                     <Media.Item as="figure" style={{marginRight:"10px"}} >
                                         <Image.Container as="p" size="1by1">
-                                            <Image alt="torinese" src="https://bulma.io/images/placeholders/128x128.png" />
+                                            <Image alt="torinese" src="https://images.freejpg.com.ar/900/0705/elevator-building-person-waiting-man-business-executive-F100025613.jpg" />
                                         </Image.Container>
                                     </Media.Item>
                                     <Media.Item>

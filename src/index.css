@@ -13,6 +13,7 @@
   --giallo2: #ffc600;
   --verde: #caffbf;
   --verdeoscuro: #2a9d8f;
+  --verde2: #6b705c;
   --celeste: #a2d6f9;
   --azul: #072ac8;
   --azul2: #1e96fc;
@@ -32,9 +33,6 @@
 }
 a {
   color: var(--giallo) !important;
-}
-html, nav {
-
 }
 body {
   background-color: #f1faee;
@@ -493,6 +491,8 @@ iframe {
   margin-top: 30px !important;
   font-weight: 100 !important;
 }
+
+/*---------responsive----------*/
 
 @media (max-width: 600px) {
   .title-galeria {

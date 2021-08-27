@@ -11,7 +11,7 @@ function Servizi() {
                     <Title className="title-galeria">Servizi</Title>
                 </Content>
                 <Content>
-                <Title size={2} className="subtitle-servizi">Scopri tutti i servizi dello Studio Architetti AD.
+                <Title size={2} className="subtitle-servizi">Scopri tutti i servizi dello Studio Architetti.
                         Per qualsiasi informazione non esitare a contattarci.
                 </Title>
                 </Content>
