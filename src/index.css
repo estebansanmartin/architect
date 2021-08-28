@@ -44,7 +44,7 @@ body {
 }
 .loading-fondo {
   height: 100vh;
-  background-color: var(--blanco2);
+  background-color: #fefae0;
 }
 .loading-icon {
   position: absolute;
@@ -500,6 +500,23 @@ iframe {
     font-weight: 500 !important;
     letter-spacing: 5px;
   }
+  .logo {
+    font-size: 8vw !important;
+  }
+  .title-galeria {
+    letter-spacing: 0;
+  }
+  .team-text {
+    text-align: center;
+    min-width: 100%;
+    margin: 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .box-contact {
+    margin-bottom: 20px;
+  }
 }
 /*-----REVEAL--------*/
 
@@ -520,7 +537,6 @@ iframe {
   }
 .reveal,
 .reveal::after {
-         animation-delay: .6s;
          animation-iteration-count: 1;
          animation-duration: 800ms;
          animation-fill-mode: both;
