@@ -55,9 +55,6 @@ body {
   min-height: 100vh;
   width: 100% !important;
 }
-.container {
-  height: 100vh !important;
-}
 /*---------LOADING PAGE---------*/
 .loader-wraper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2016/02/24/18/07/torino-1220460_960_720.jpg");
