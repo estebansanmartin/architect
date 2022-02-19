@@ -106,17 +106,14 @@ body {
   width: 90%;
   font-size: 14vw !important;
   line-height: .9 !important;
-  position: absolute;
-  top: 10%;
+  margin-top: 10% !important;
   left: 10%;
   color: var(--negro) !important;
   font-weight: 800 !important;
 }
 .button-home {
   display: flex;
-  top: 60%;
-  left: 10%;
-  position: absolute;
+  justify-content: flex-start;
 }
 .button-home a {
   font-weight: 500;
